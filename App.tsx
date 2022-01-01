@@ -15,7 +15,7 @@ export default function App() {
     DMSans_400Regular,
     DMSans_700Bold
   })
-  
+
   if (!isLoaded) {
     return <AppLoading />
   }

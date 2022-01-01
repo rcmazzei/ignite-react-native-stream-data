@@ -9,7 +9,7 @@ export const Container = styled(MotiView)`
 `;
 
 export const Header = styled.View`
-  padding: ${getStatusBarHeight(true) + 10}px 12px 24px 24px;
+  padding: ${getStatusBarHeight(true) + 16}px 12px 24px 24px;
   background-color: ${props => props.theme.colors.purple};
 
   flex-direction: row;
